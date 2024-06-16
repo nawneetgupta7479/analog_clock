@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url("interior-8750703_1280.jpg");
+    background-size: cover cover;
+   /* min-height: 100vh; */
+   background-position: center;
+    /* width: 100%; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.clock{
+    background-color: rgb(24, 23, 23);
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 18rem;
+    height: 18rem;
+    position: relative;
+    margin-top: 2.5rem;
+}
+h1{
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 0.5rem;
+   
+    font-family: "Dancing Script";
+    font-weight: bold;
+    font-size: 3rem;
+}
+.clock .midpoint {
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    border-radius: 50%;
+     position: absolute;
+    /*top: 45%;
+    right: 52%; */
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    
+}
+/* .number{
+    position: relative;
+} */
+.time{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: 5px;
+    height: 2rem;
+    font-family: "Dancing Script";
+}
+.time1{
+    top: 5%;
+    left:70%;
+}
+.time12{
+    left: 46%;
+}
+.time11{
+    right: 72%;
+    top: 5%;
+}
+.time3{
+  top:42% ;
+  right: 5%;
+}
+.time6{
+    top: 87%;
+    left: 47%;
+}
+.time9{
+    top: 43%;
+    left: 2%;
+}
+.time2{
+    top: 19%;
+   right: 12.4%;
+}
+.time10{
+    top: 20%;
+    left: 8%;
+}
+.time4{
+    right: 11%;
+    bottom: 24%;
+}
+.time5{
+    bottom: 9%;
+    right: 26%;
+}
+.time7{
+    bottom: 7%;
+    left: 26%;
+}
+.time8{
+    bottom: 24%;
+    left: 10%;
+}
+.secondhand-wrapper{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+    top: 39.5px;
+    left: 39.5px;
+    color: transparent;
+}
+.secondhand{
+   position: relative;
+}
+.secondhandpointer{
+    width: 1px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    left: 100px;
+}
+
+.minutehand-wrapper{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+   
+    top: 59px;
+    left: 59px;
+    color: transparent;
+}
+.minutehand{
+   position: relative;
+}
+.minutehandpointer{
+    width: 2px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    left: 79px;
+}
+
+.hourhand-wrapper{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  
+    top: 79px;
+    left: 79px;
+    color: transparent;
+}
+.hourhand{
+   position: relative;
+}
+.hourhandpointer{
+    width: 4px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    left: 58px;
+}
+.company{
+    position: absolute;
+    top: 50px;
+    left: 112px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: "Dancing Script";
+
+}
+.day-date{
+    font-family: 'Dancing Script';
+    word-spacing: 3px;
+}
